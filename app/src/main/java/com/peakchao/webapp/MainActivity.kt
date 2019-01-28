@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         initSetting()
 
         mWebView.loadUrl("http://demo.wex5.com/taobao/index.html?device=m");
-//        mWebView.loadUrl("file:///android_asset/index.html");
+        //mWebView.loadUrl("file:///android_asset/index.html");
     }
 
     private fun initSetting() {
