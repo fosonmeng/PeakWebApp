@@ -2,5 +2,6 @@ ext {
     app_name = "淘宝"
     isLocal = "false"
     application_id = "com.peakchao.webapp"
+    web_url = "http://demo.wex5.com/taobao/index.html?device=m"
 }
 
