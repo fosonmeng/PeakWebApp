@@ -1,0 +1,6 @@
+ext {
+    app_name = "淘宝"
+    isLocal = "false"
+    application_id = "com.peakchao.webapp"
+}
+

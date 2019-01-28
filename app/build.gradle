@@ -7,12 +7,14 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.peakchao.webapp"
+        applicationId application_id
         minSdkVersion 15
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        buildConfigField("boolean", "isLocal", isLocal)
+        manifestPlaceholders = [app_name: app_name,app_icon: "@drawable/ic_launcher"]
     }
     buildTypes {
         release {
