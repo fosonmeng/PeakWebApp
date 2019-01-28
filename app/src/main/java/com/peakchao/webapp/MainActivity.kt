@@ -19,8 +19,11 @@ class MainActivity : AppCompatActivity() {
 
         initSetting()
 
-        mWebView.loadUrl("http://demo.wex5.com/taobao/index.html?device=m");
-        //mWebView.loadUrl("file:///android_asset/index.html");
+        if (BuildConfig.isLocal) {
+            mWebView.loadUrl("file:///android_asset/index.html");
+        } else {
+            mWebView.loadUrl(BuildConfig.web_url);
+        }
     }
 
     private fun initSetting() {
