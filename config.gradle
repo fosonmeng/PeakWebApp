@@ -1,7 +1,7 @@
 ext {
-    app_name = "瑞吉德"
+    app_name = "东方之芯"
     isLocal = "false"
     application_id = "com.peakchao.webapp"
-    web_url = "http://192.168.1.252:3333"
+    web_url = "http://xc.rhtec.net/dfzx/"
 }
 
