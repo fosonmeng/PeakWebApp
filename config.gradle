@@ -1,7 +1,8 @@
 ext {
-    app_name = "淘宝"
+    app_name = "湘庭劳务"
     isLocal = "false"
     application_id = "com.peakchao.webapp"
-    web_url = "http://demo.wex5.com/taobao/index.html?device=m"
+    web_url = "http://admin.xtlabor.com/financial-admin/"
 }
 
+#App桌面图标替换路径：app/src/main/res/drawable-xxhdpi/ic_launcher.jpg
