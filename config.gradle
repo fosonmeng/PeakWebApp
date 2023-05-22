@@ -1,7 +1,7 @@
 ext {
-    app_name = "淘宝"
+    app_name = "screen"
     isLocal = "false"
     application_id = "com.peakchao.webapp"
-    web_url = "http://demo.wex5.com/taobao/index.html?device=m"
+    web_url = "https://echarts.apache.org/examples/zh/index.html#chart-type-pie"
 }
 
