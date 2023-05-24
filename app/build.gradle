@@ -21,7 +21,7 @@ android {
         release {
             keyAlias 'android'
             keyPassword 'android'
-            storeFile file('android.jks')
+            storeFile file('../android.jks')
             storePassword 'android'
 
             v1SigningEnabled true
