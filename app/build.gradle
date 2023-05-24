@@ -23,6 +23,9 @@ android {
             keyPassword 'android'
             storeFile file('../android.jks')
             storePassword 'android'
+
+            v1SigningEnabled true
+            v2SigningEnabled true
         }
     }
 
