@@ -1,7 +1,6 @@
 ext {
-    app_name = "淘宝"
+    app_name = "AI智能模拟导游综合实训"
     isLocal = "false"
-    application_id = "com.peakchao.webapp"
-    web_url = "http://demo.wex5.com/taobao/index.html?device=m"
+    application_id = "com.peakchao.AIZhiNengMoNiDaoYouZongHeShiXunapp"
+    web_url = "https://www.lvketang.cn/homeIndex"
 }
-
